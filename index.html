@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--Encabezados o headings-->
+    <h1>Soy un encabezado h1</h1>
+    <h2>Soy un encabezado h2</h2>
+    <h3>Soy un encabezado h3</h3>
+    <h4>Soy un encabezado h4</h4>
+    <h5>Soy un encabezado h5</h5>
+    <h6>Soy un encabezado h6</h6>
+
+    <!--Párrafo p-->
+    <p id="parrafoId">Este es un párrafo</p>
+    <p>Este es otro párrafo</p>
+
+    <!--br-->
+    <p>Si caminas solo, irás más rápido<br>
+        Si caminas acompañado, llegarás más lejos</p>
+
+    <!--Listas ordenadas ol y las listas NO ordenadas ul
+    li marcamos un elemento de la lista-->
+    <h3>Lista Ordenada</h3>
+    <ol>
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Contáctenos</li>
+    </ol>
+    <h3>Lista NO ordenada</h3>
+    <ul>
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Contáctenos</li>
+    </ul>
+
+    <!--Divisiones div podemos agrupar contenido
+    podemos crear secciones dentro una página-->
+    <div id="eId" style="border: 5px outset blue">
+        <h1>Soy una división</h1>
+    </div>
+
+    <!--section-->
+    <section>
+        <p>
+            Soy la etiqueta section y defino secciones de un documento.
+        </p>
+    </section>
+
+    <!--header-->
+    <header>
+        <p>Soy la parte superior de la página web, puedes asignarme un logo, también menu</p>
+    </header>
+
+    <!--main-->
+    <main>
+        <p>Soy el contenido principal del cuerpo de la página o body</p>
+    </main>
+
+    <!--article-->
+    <article>
+        <p>puedo agrupar contenido como párrafos, comentarios, imágenes
+            publicación en el foro, entradas en un blog
+        </p>
+    </article>
+
+    <!--aside-->
+    <aside>
+        <p>represento contenido secundario de la página. se asigna al
+            lado derecho y izquierdo de la página
+        </p>
+    </aside>
+    <!--footer-->
+    <footer>
+        <p>soy el pie de página
+            información del autor, datos de contacto
+        </p>
+    </footer>
+
+    <!--a permite realizar hipervínculos a otras páginas o elementos-->
+    <a href="https://www.google.com/">Google</a>
+
+    <!--nav menú de navegación-->
+    <nav>
+        <a href="/html/">HTML</a>
+        <a href="/css/">CSS</a>
+        <a href="/javascript/">JavaScript</a>
+    </nav>
+
+    <!--tablas-->
+    <table>
+        <thead>
+            <!--cabecera de la tabla-->
+            <tr>
+                <!--fila de la cabecera-->
+                <th>Nombre</th>
+                <!--columna-->
+                <th>Apellido</th>
+                <th>Teléfono</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--cuerpo de la tabla-->
+            <tr>
+                <!--fila-->
+                <td>Jenny</td>
+                <!--columna del cuerpo de la tabla-->
+                <td>Montoya</td>
+                <td>5555555</td>
+            </tr>
+
+            <tr>
+                <!--fila-->
+                <td>Alexandra</td>
+                <!--columna del cuerpo de la tabla-->
+                <td>Cortés</td>
+                <td>88888</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--imágenes img-->
+    <img src="images/gato1.png" title="Don gato" alt="gatito">
+    <img src="https://www.hola.com/imagenes/estar-bien/20180925130054/consejos-para-cuidar-a-un-gatito-recien-nacido-cs/0-601-526/cuidardgatito-t.jpg" title="Don gato" alt="gatito">
+
+    <!--audio-->
+    <audio src="multimedia/audio.mp3" controls></audio>
+
+    <audio controls>
+       <source src="multimedia/audio.mp3" type="audio/mp3">
+    </audio>
+
+    <!--video-->
+    <video src="multimedia/Gaticos.mp4" controls></video>
+
+    <!--iframe-->
+    <iframe width="950" height="534" src="https://www.youtube.com/embed/SRlpxa_xyCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!--cursiva y negrita-->
+    <p><strong>Soy un párrafo en negrita con strong</strong></p>
+    <p><b>Soy un párrafo en negrita con b</b></p>
+
+    <p><em>Soy un párrafo en cursiva con em</em></p>
+    <p><i>Soy un párrafo en cursiva con i</i></p>
+
+    <!--Detail y summary-->
+    <details>
+        <summary>Algunos detalles</summary>
+        <p>Más información del detalle</p>
+    </details>
+
+
+    <!--Selector clase-->
+    <h2 class="ejemplo">Soy h2</h2>
+    <h2 class="ejemplo">Soy h2</h2>
+    <h2 id="ejemploId">Soy h2</h2>
+    <p class="ejemplo">Soy un ejemplo</p>
+
+    <!--psudoclase como selector-->
+    <a href="#" class="text">pseudo clase como selector</a>
+
+    <!--border-->
+    <h1 id="e1">Borde punteado circulos</h1>
+    <h1 id="e2">Borde punteado en línea</h1>
+    <h1 id="e3">Borde sólido</h1>
+    <h1 id="e4">Borde doble</h1>
+
+    <!--block-->
+    <p id="bloqueP">Elemento en bloque</p>
+
+    <!--linea-->
+    <p id="linea1">Elemento linea</p>
+
+    <!--Anclaje interno-->
+    <a href="#eId">Ejemplo anclaje interno</a>
+
+
+
+</body>
+
+</html>
